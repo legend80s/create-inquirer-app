@@ -1,0 +1,30 @@
+{
+  "name": "create-inquirer-app",
+  "version": "0.0.0",
+  "description": "Create an beautiful inquiry app.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-inquirer-app": "cli.js"
+  },
+  "tnpm": {
+    "mode": "yarn",
+    "lockfile": "enable"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/legend80s/create-inquirer-app"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^8.0.0",
+    "mkdirp": "^1.0.4"
+  },
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.1.0"
+  }
+}
